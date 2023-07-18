@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 569px) and (max-width: 959px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .menu {
+    line-height: 40px;
+    width: 80%;
+  }
+  .menu ul li {
+    background-color: #ff42a5;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .list-item {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .list-item button {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .banner-box .btn-1 {
+    padding: 6px 15px;
+  }
+  .banner-box .btn-2 {
+    padding: 6px 15px;
+  }
+
+  .banner-box .icon i {
+    margin-bottom: 20px;
+  }
+  .banner-box button {
+    margin-top: 20px;
+  }
+}
