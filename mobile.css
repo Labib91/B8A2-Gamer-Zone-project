@@ -148,4 +148,22 @@ body {
   .careers-img {
     width: 80%;
   }
+
+  /* feature style here */
+  .feature {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    padding: 10px;
+  }
+  .game-feature img {
+    height: 30px;
+    width: 30px;
+  }
+  .game-feature h2 {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .game-feature:hover {
+    border: 2px solid #f948b2;
+  }
 }

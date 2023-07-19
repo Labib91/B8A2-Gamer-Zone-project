@@ -294,7 +294,7 @@ i {
   border-radius: 20px;
   margin-top: 20px;
 }
-.p-left{
+.p-left {
   color: white;
   font-size: 12px;
 }
@@ -305,3 +305,37 @@ i {
   color: white;
 }
 /* careers style end */
+
+/* game feature section start here */
+
+.feature-box {
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  gap: 20px;
+}
+
+.game-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-feature:hover {
+  border: 2px solid #f948b2;
+  border-radius: 40px;
+}
+.game-feature h2 {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* game feature section end here */
