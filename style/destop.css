@@ -350,6 +350,10 @@ i {
 .footer h1 {
   color: #fff;
 }
+.footer-logo{
+  display: flex;
+  justify-content: center;
+}
 .footer-logo img {
   width: 50px;
 }
