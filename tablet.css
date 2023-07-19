@@ -39,6 +39,11 @@ body {
     align-items: center;
     flex-direction: column-reverse;
   }
+  .banner-img img {
+    height: 57%;
+    width: 100%;
+    margin-top: 211px;
+  }
   .banner-box .btn-1 {
     padding: 6px 15px;
   }
