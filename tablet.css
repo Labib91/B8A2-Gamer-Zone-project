@@ -52,4 +52,24 @@ body {
   .banner-box button {
     margin-top: 20px;
   }
+  /* gammer style here */
+  .gammer {
+    flex-direction: column;
+  }
+
+  .tilte h1 {
+    font-size: 28px;
+  }
+  .tilte p {
+    font-size: 14px;
+  }
+  .gammer-img img {
+    height: 75%;
+    width: 75%;
+  }
+  .fanny-videos {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin-top: 10px;
+  }
 }

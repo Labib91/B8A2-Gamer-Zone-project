@@ -14,6 +14,7 @@ body {
   }
   .menu {
     line-height: 40px;
+    margin-left: -20px;
   }
   .menu ul li a:hover {
     color: #ff42a5;
@@ -24,11 +25,19 @@ body {
   }
   .list-item button {
     margin-top: 20px;
+    margin-right: 20px;
   }
+  /* banner style here */
   .banner {
     flex-direction: column;
     align-items: center;
     flex-direction: column-reverse;
+  }
+  .gammer-box {
+    padding: 0px 0px 0px 10px;
+  }
+  .gammer-content p {
+    font-size: 12px;
   }
   .banner-box .btn-1 {
     padding: 6px 15px;
@@ -53,7 +62,7 @@ body {
   .gammer-img img {
     margin-top: 10px;
     height: 90%;
-    width: 120%;
+    width: 90%;
   }
   .tilte {
     text-align: center;
