@@ -45,6 +45,11 @@ body {
   .banner-box .btn-2 {
     padding: 6px 15px;
   }
+  .banner-box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
   .banner-box .icon i {
     margin-bottom: 20px;
@@ -56,7 +61,17 @@ body {
   .gammer {
     flex-direction: column;
   }
+  .gammer-content {
+    text-align: center;
+  }
 
+  .gammer-box {
+    padding: 0px;
+  }
+  .tilte {
+    text-align: center;
+    margin-top: 146px;
+  }
   .tilte h1 {
     font-size: 28px;
   }
@@ -64,8 +79,9 @@ body {
     font-size: 14px;
   }
   .gammer-img img {
-    height: 75%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
   }
   .fanny-videos {
     grid-template-columns: repeat(1, 1fr);
