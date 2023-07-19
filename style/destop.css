@@ -294,5 +294,14 @@ i {
   border-radius: 20px;
   margin-top: 20px;
 }
-
+.p-left{
+  color: white;
+  font-size: 12px;
+}
+.p-right {
+  font-size: 12px;
+  text-align: end;
+  margin-right: 0px;
+  color: white;
+}
 /* careers style end */
