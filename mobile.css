@@ -166,4 +166,9 @@ body {
   .game-feature:hover {
     border: 2px solid #f948b2;
   }
+  .footer-box {
+   
+    padding: 40px;
+    margin-top: 60px;
+
 }
