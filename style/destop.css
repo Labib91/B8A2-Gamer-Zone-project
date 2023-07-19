@@ -24,6 +24,11 @@ header {
 }
 .logo {
   display: flex;
+  fill: linear-gradient(
+    223deg,
+    rgba(130, 115, 130, 0.03) 0%,
+    rgba(143, 70, 115, 0.03) 100%
+  );
 }
 .logo img {
   width: 50px;
@@ -69,6 +74,11 @@ i {
   justify-content: space-between;
   height: 500px;
   margin-top: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 54, 153, 0.03) 0%,
+    rgba(253, 58, 159, 0.03) 100%
+  );
 }
 .banner-box {
   width: 50%;
@@ -350,7 +360,7 @@ i {
 .footer h1 {
   color: #fff;
 }
-.footer-logo{
+.footer-logo {
   display: flex;
   justify-content: center;
 }
