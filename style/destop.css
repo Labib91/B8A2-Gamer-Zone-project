@@ -83,9 +83,26 @@ i {
 }
 .banner-content h4 {
   color: #0b0223;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.icon p {
+  color: #0b0223;
+  font-size: 16px;
+}
+
+.fa-play:before {
+  content: "\f04b";
+  margin: 0px 10px 0px 0px;
+}
+.fa-download:before {
+  content: "\f04b";
+  margin: 0px 10px 0px 0px;
+}
+.fa-people-group:before {
+  content: "\f04b";
+  margin: 0px 10px 0px 0px;
 }
 .banner-content h1 {
   background-image: linear-gradient(to bottom, #8758f1, #f948b2);
@@ -170,18 +187,18 @@ i {
 }
 /* fanny video start style*/
 
-.tilte {
+.title {
   text-align: center;
   margin-top: 80px;
 }
-.tilte h1 {
+.title h1 {
   color: #0b0223;
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 700;
 }
-.tilte p {
+.title p {
   color: #534c64;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
 }

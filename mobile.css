@@ -64,14 +64,14 @@ body {
     height: 90%;
     width: 90%;
   }
-  .tilte {
+  .title {
     text-align: center;
     margin-top: 200px;
   }
-  .tilte h1 {
+  .title h1 {
     font-size: 20px;
   }
-  .tilte p {
+  .title p {
     font-size: 12px;
   }
   .gammer-content {
