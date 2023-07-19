@@ -260,3 +260,39 @@ i {
   width: 80%;
 }
 /* play end */
+/* careers style start */
+.careers-bg {
+  background: #f948b2;
+}
+.careers {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers-box {
+  width: 50%;
+}
+.careers-img {
+  width: 50%;
+}
+.careers-img img {
+  height: 100%;
+  width: 100%;
+}
+.c-para {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers button {
+  padding: 7px 60px;
+  border: none;
+  color: #f948b2;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* careers style end */
