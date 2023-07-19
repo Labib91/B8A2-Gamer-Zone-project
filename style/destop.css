@@ -339,3 +339,34 @@ i {
 }
 
 /* game feature section end here */
+/* footer start here */
+
+.footer-box {
+  background: #0b0223;
+  text-align: center;
+  padding: 100px;
+}
+
+.footer h1 {
+  color: #fff;
+}
+.footer-logo img {
+  width: 50px;
+}
+.footer-logo span {
+  color: #f948b2;
+}
+.p-span {
+  margin-top: 20px;
+  color: #fff;
+}
+.social-icon {
+  margin-top: 20px;
+  color: #fff;
+}
+.footer p {
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* footer end here */
