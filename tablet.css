@@ -88,4 +88,20 @@ body {
     text-align: center;
     margin-top: 10px;
   }
+  .card p {
+    font-size: 14px;
+  }
+  /* paly style here */
+  .play {
+    flex-direction: column-reverse;
+  }
+  .play-box {
+    padding: 0px;
+    width: 66%;
+    text-align: center;
+  }
+  .play-content .para {
+    margin: 20px 0px;
+    font-size: 12px;
+  }
 }

@@ -191,6 +191,12 @@ i {
   text-align: center;
   margin-top: 80px;
 }
+.title span {
+  background-image: linear-gradient(to bottom, #8758f1, #f948b2);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 30px;
+}
 .title h1 {
   color: #0b0223;
   font-size: 30px;
@@ -206,10 +212,51 @@ i {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 10px;
+  gap: 50px;
   margin-top: 50px;
 }
 .card img {
   width: 250px;
 }
+.card p {
+  font-size: 16px;
+}
 /* fanny video end */
+
+/* play style */
+.play {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.play-box {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 40px;
+}
+.play-content h4 {
+  background-image: linear-gradient(to bottom, #8758f1, #f948b2);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 30px;
+}
+.play-img {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.related {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+}
+.play-img img {
+  height: 100%;
+  width: 80%;
+}
+/* play end */
